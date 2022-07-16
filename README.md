@@ -10,7 +10,7 @@ I will begin soon a new phase and it is really important to get ready. In this r
 
 # Table of Contents
    * [Taking the first steps](#taking-the-first-steps)
-   * [Other title](#other-title)
+   * [Other title](#other--title)
 
 ## Taking the first steps 
 
