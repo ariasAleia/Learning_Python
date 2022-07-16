@@ -9,11 +9,14 @@ I will begin soon a new phase and it is really important to get ready. In this r
 
 
 # Table of Contents
-   * [Taking the first steps](#what-is-this)
+   * [Taking the first steps](#taking-the-first-steps)
+   * [Other title](#other-title)
 
 ## Taking the first steps 
 
 How will I do it? Well... I will follow this [tutorial](https://www.youtube.com/watch?v=rfscVS0vtbw) and take note of the important things that I find in the way. 
 
 Stay tunned! This is just the beginning!
+
+## Other title
 
