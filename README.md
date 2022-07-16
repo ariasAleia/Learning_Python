@@ -7,16 +7,13 @@ I will begin soon a new phase and it is really important to get ready. In this r
 <p style="text-align:right;"><b> "A journey of a thousand miles begins with a single step </b>"</p>
 
 
-
-# Table of Contents
-   * [Taking the first steps](#taking-the-first-steps)
-   * [Other title](#other--title)
-
 ## Taking the first steps 
 
 How will I do it? Well... I will follow this [tutorial](https://www.youtube.com/watch?v=rfscVS0vtbw) and take note of the important things that I find in the way. 
 
 Stay tunned! This is just the beginning!
 
-## Other title
+## Syntax, variables, basic functions and structures
+
+
 
