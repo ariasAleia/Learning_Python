@@ -56,3 +56,7 @@ When we call the function we have arguments.
 createNewString(a_sample, b_sample)
 ```
 a_sample and b_sample are called arguments
+
+### Input
+
+But before that... There is sth interesting. With the extension code runner we can press ctrl + alt + n and we get the output directly. However, if we ask for an user input this won't work since we cannot modify the output. For those cases, we gotta run the code directly in the terminal. But the good news are... chan chaaan chaaannnn. We can set sth in the extension to do exactly that! See [this video](https://www.youtube.com/watch?v=Si8rN5J249M) for more info.
