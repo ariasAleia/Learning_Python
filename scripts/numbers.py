@@ -1,3 +1,6 @@
+from math import *
+
+
 print(3 + 7.8)
 print(10 % 3)
 
@@ -14,3 +17,8 @@ print(max(45, 34))
 print(min(34, 2))
 
 print(round(3.2676877, 3))
+
+print(floor(3.9))
+
+print(ceil(3.1)) #The next closest integer
+print(sqrt(25))
