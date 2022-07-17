@@ -60,3 +60,19 @@ a_sample and b_sample are called arguments
 ### Input
 
 But before that... There is sth interesting. With the extension code runner we can press ctrl + alt + n and we get the output directly. However, if we ask for an user input this won't work since we cannot modify the output. For those cases, we gotta run the code directly in the terminal. But the good news are... chan chaaan chaaannnn. We can set sth in the extension to do exactly that! See [this video](https://www.youtube.com/watch?v=Si8rN5J249M) for more info.
+
+
+By default the input will be taken as string.
+```python
+name = input("Enter your name: ")
+```
+
+If we want it to be integer for example, we must specify it.
+
+```python
+age = int(input("Enter your age: "))
+```
+```python
+a = float(input("Enter the first integer: "))
+b = float(input("Enter the second integer: "))
+```
