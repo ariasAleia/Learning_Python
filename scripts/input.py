@@ -1,4 +1,7 @@
 #Getting input from someone or from a robot.. who knows :P
 
 name = input("Enter your name: ")
-print("Hi " + name)
+age = int(input("Enter your age: "))
+print("Hi " + name +", you are only " + str(age) + ", you are still "
+      "pretty young")
+
