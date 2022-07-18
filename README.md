@@ -188,3 +188,59 @@ other_friends.append("Sam2")
 print(other_friends)
 print(friends)
 ```
+
+### Tuples...
+
+Ok. Let's imagine that we have some sort of data that won't be ever changes. It was created and will keep in that way until the rest of our days. Immortal. Immutable. Well... In that case, it would be useful to use tuples. 
+
+Basically, tuples are used when we want to store immutable data. The syntax difference is that in this case we use parentheses () instead of brackets. 
+
+And that's it!
+
+Ok! Wait! Important **We cannot modify the values in a tuple. We can only access to it**. And how do we access to it? Wellm it's the same thing as with a list
+
+```python
+coordinates = (4, 5)
+print(coordinates)
+print(coordinates[1])
+```
+If we try to modify a value of the tuple it will give us an error
+
+```python
+coordinates[0] = 2
+```
+
+#### List of tuples
+
+YEAH! Let's break the world!
+
+```python
+#Something cool: A list of tuples
+
+#We can do this...
+list = [(8,9), (7,8), (6,7)]
+print(list)
+list[0] = 4
+print(list)
+
+#But not this:
+list[1][1] = 4
+print(list)
+```
+
+#### Tuple of lists
+```python
+#And if we do a tuple of lists?
+tuple_of_lists = ([4,5], [5,6])
+print(tuple_of_lists)
+
+#We can modify the list in the tuple
+tuple_of_lists[0][1] = 3
+print(tuple_of_lists)
+
+#But we cannot modify the tuple itself
+tuple_of_lists[0] = [4,3]
+print(tuple_of_lists)
+```
+
+1:24:39
