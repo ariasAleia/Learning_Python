@@ -243,4 +243,13 @@ tuple_of_lists[0] = [4,3]
 print(tuple_of_lists)
 ```
 
-1:24:39
+### Functions
+
+The name of a function must be lowercase and separated by underscore to improve readability
+
+```python
+def say_hi():
+    print("Hello User")
+    
+say_hi()
+```
