@@ -6,4 +6,4 @@ def choose_biggest_number(a, b, c):
     else:
         return c
     
-print(choose_biggest_number(7,4,5))
+print("Max number is " + str(choose_biggest_number(7,4,5)))
