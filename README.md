@@ -104,7 +104,7 @@ print(friends)
 
 ```
 
-### Append elements to a list
+#### Append elements to a list
 ```python
 lucky_numbers = [4, 8, 15, 16, 23, 42]
 lucky_numbers.append(9)
@@ -112,19 +112,19 @@ print(lucky_numbers)
 
 ```
 
-### Insert an item in a certain position
+#### Insert an item in a certain position
 ```python
 lucky_numbers.insert(2, 17)
 print(lucky_numbers)
 ```
 
-### Remove an item
+#### Remove an item
 ```python
 lucky_numbers.remove(15)
 print(lucky_numbers)
 ```
 
-### Remove an item by index but printing it before
+#### Remove an item by index but printing it before
 ```python
 lucky_numbers.pop()
 print(lucky_numbers)
@@ -136,38 +136,38 @@ lucky_numbers.pop(2)
 print(lucky_numbers)
 ```
 
-### To find the index of an item in the list
+#### To find the index of an item in the list
 ```python
 print(friends.index("Cristian"))
 ```
 
-### To find how many times we have an item in a list
+#### To find how many times we have an item in a list
 ```python
 friends[4] = "New friend"
 friends[6] = "New friend"
 print(friends.count("New friend"))
 ```
 
-### Clear list
+#### Clear list
 ```python
 friends.clear()
 ```
 
-### Sort list in ascending order
+#### Sort list in ascending order
 ```python
 print(friends)
 friends.sort()
 print(friends)
 ```
 
-### Reverse the order of a list
+#### Reverse the order of a list
 ```python
 print(lucky_numbers)
 lucky_numbers.reverse()
 print(lucky_numbers)
 ```
 
-### HEY! Important to copy a list
+#### HEY! Important to copy a list
 Jap... We cannot copy that easy. It would modify both lists. 
 
 They both point to the same list. Don't believe me? Then take a peek.
