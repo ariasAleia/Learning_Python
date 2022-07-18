@@ -10,3 +10,6 @@ def cube_number(num):
 say_hi()
 say_hi_user("Aleia", 22)
 print(cube_number(3))
+
+result = cube_number(4)
+print(result)

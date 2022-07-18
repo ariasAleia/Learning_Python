@@ -250,6 +250,28 @@ The name of a function must be lowercase and separated by underscore to improve 
 ```python
 def say_hi():
     print("Hello User")
+
+def say_hi_user(name, age):
+    print("Hello " + name + " You are " + str(age))
     
 say_hi()
+say_hi_user("Aleia", 22)
 ```
+
+After a return statement inside of a function nothing will be executed!
+
+### IF
+ 
+Well... it is way easier with an example
+```python
+if is_male and is_tall:
+    print("You are a tall male")
+elif is_male and not(is_tall):
+    print("You are a short male")
+elif not(is_male) and is_tall:
+    print("You are not male and you are tall")
+else:
+    print("You are neither male nor tall")
+```
+
+
