@@ -41,6 +41,8 @@ print(phrase.upper().isupper())
 
 First function: Makes everything uppercase. Second function: tells us if everything is uppercase or not. Returns a boolean, true or false. Yep. That's exactly the decorator pattern.
 
+We can compare strings directly with ==
+
 ### Parameters and arguments
 
 When we declare a function we have parameters. For example:
@@ -275,3 +277,52 @@ else:
 ```
 
 
+### Dictionaries
+
+Store information with key values. Sorry... what?
+Well, let's see. How does a dictionary work? Well, we have a word and we have a definiction, don't we? Well, that's exactly how a dictionary works. With this data structure, the key would be like the word and the value would be like the definition.
+
+The difference here is that we do it inside curly brackets: {}
+
+And other important thing: All of the keys must be unique. If not, it could work but return just one of the values that have the key.
+
+```python
+month_conversions = {
+    "Jan": "January",
+    "Feb": "February",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+    "Jul": "July",
+    "Aug": "August",
+    "Sep": "September",
+    "Oct": "October",
+    "Nov": "November",
+    "Dec": "December" 
+}
+```
+
+And we can look for the value having the key. For example:
+
+```python
+print(month_conversions["Dec"])
+#Or also:
+print(month_conversions.get("Jan"))
+```
+
+It seems that [] and .get() make exactly the same thing but the good thing about .get() is that we can specify a default value to be returned in case that we enter a key that is not found in the dictionary.
+
+```python
+print(month_conversions.get("Dec"))
+print(month_conversions.get("Derc"))
+print(month_conversions.get("Derc", "Key was not found :P"))
+```
+
+### While loops
+```python
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+```
