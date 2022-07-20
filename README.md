@@ -326,3 +326,37 @@ while i <= 10:
     print(i)
     i += 1
 ```
+
+### For loops
+
+With a for we basically iterate through a collection. A collection can be a string, a list, a tuple, a dictionary...
+For example with a string! That's cool.
+
+```python
+for letter in "Aleia is coding":
+    print(letter)
+```
+Or with a list:
+```python
+friends = ["You", "Me", "We both"]
+for friend in friends:
+    print(friend)
+```
+
+And in a not so pythonic way we can also iterate through a list:
+```python
+for index in range(len(friends)):
+    print(friends[index])
+```
+
+And of course in a range of given numbers:
+```python
+for i in range(10):
+    print(i)
+#Output: 0 1 2 3 4 5 6 7 8 9
+for i in range(3, 10):
+    print(i)
+#Output: 3 4 5 6 7 8 9
+```
+
+**REALLY IMPORTANT:** In range we don't take the last limit. It's an open interval at the end. Example: range(10), from 0 to 9! Other example: range(4,8) that would be from 4 to 7!!!
