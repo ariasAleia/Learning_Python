@@ -43,6 +43,11 @@ First function: Makes everything uppercase. Second function: tells us if everyth
 
 We can compare strings directly with ==
 
+```python
+print("If we want to print sth but it's extremely large we can "
+      "simply split it like this")
+```
+
 ### Parameters and arguments
 
 When we declare a function we have parameters. For example:
@@ -410,6 +415,91 @@ if letter.lower() in "aeiou":
 ### Comments
 
 ```python
-#This is a comment
+# This is a comment
+'''
+and this is also another comment. Cool
+'''
+# This is a comment
+```
+But officially is better to use the #
+
+### Try and except
+
+This one is important Aleia. Pay attention!
+
+```python
+try:
+    number = int(input("Enter a number: "))
+    value = 10 / number
+    print(number)
+except ZeroDivisionError:
+    print("Divided by zero")
+except ValueError as err:
+    print(err)
 ```
 
+As we could see, we can print sth that we want or we want directly print the message that comes with the expection that we caught
+
+### Reading files with Python :D
+
+If both files are in the same folder, then we just need the name of the file... However in our case we had to specify first the folder where it was. Kinda strange but it worked...
+
+The second parameter specifies if we want to read or modify or write the file
+r means that we only want to read from it
+
+w is that we want to write in the file, change it
+a means append, we can add new info to the file
+r+ -> means read and write
+
+**Warning:** Read from the file only once. If not we will have problems with the cursor!
+
+```python
+employee_file = open("employees.txt", "r")
+#This returns a True if we can read it. (if we have "r": True, if we have "w", for example: False)
+print(employee_file.readable())
+
+#To read lines in the file but it moves the cursor so that the next time when we want to read it won't
+#read the whole file. Better not use it
+
+# print(employee_file.readline())
+# print(employee_file.readline())
+
+#To get all the info from the file but it moves the cursor so that the next time when we want to read it won't
+#read the whole file. Better not use it:
+
+# print(employee_file.read())
+
+#Sth that we can do that is actually faaar better is:
+list_of_employees = employee_file.readlines()
+
+#But  again!!! it moves the cursor so that the next time when we want to read it won't
+#read the whole file. Better not use it more than once. It's better to save it in a variable
+
+#With that we have all the info saved in a list
+
+#And now we can do magic!
+
+for employee in list_of_employees:
+    print(employee)
+    
+#Or just take one specific value:
+print("Just one employee: " + list_of_employees[2])
+
+
+#Remember to close the file!
+employee_file.close()
+
+```
+
+### Append in files
+
+No more "r" now we go with "a".
+Here we will basically open a file and append info to it, that means that we will add info at the end of the file.
+
+More info just check the script *appender.py* but hey! be careful!!! If you run the code multiple times, it will add the new line many times and it can get messy
+
+### Write in files (modify them)
+
+Jap. We can also do it. Instead of "a", we have now "w" as a second parameter.
+
+3:28
