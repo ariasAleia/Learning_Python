@@ -360,3 +360,56 @@ for i in range(3, 10):
 ```
 
 **REALLY IMPORTANT:** In range we don't take the last limit. It's an open interval at the end. Example: range(10), from 0 to 9! Other example: range(4,8) that would be from 4 to 7!!!
+
+### Two dimensional lists
+
+Yep. Like matrix!
+
+```python
+number_grid = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [0]
+]
+
+print(number_grid[0][0])
+```
+
+### Nested loops:
+
+```python
+for list in number_grid:
+    for item in list:
+        print(item)
+```
+
+### Translator
+Interesting thing. We can check in Python if sth is inside of other thing doing this:
+
+```python
+def translate(phrase):
+    translation = ""
+    for letter in phrase:
+        if letter in "AEIOUaeiou":
+            translation = translation + "g"
+        else:
+            translation = translation + letter
+    return translation
+```
+
+And remember! We can concatenate strings! That's sth really useful.
+
+That could be done better if we for example do this:
+```python
+... 
+if letter.lower() in "aeiou":
+    ...
+```
+
+### Comments
+
+```python
+#This is a comment
+```
+
