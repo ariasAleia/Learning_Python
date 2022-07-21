@@ -1,3 +1,7 @@
+'''
+This is a comment
+'''
+#This is a comment
 number_grid = [
     [1, 2, 3],
     [4, 5, 6],
