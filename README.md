@@ -519,7 +519,7 @@ print(useful_tools.roll_dice(90))
 
 And we can find a huuuuuuuuuuuuge amount of modules. Just google list of modules in python. And we can then find how we import them :)
 
-Yep, Python community is great. People doing magic together. Here a sample link: [Python modules.](https://docs.python.org/3/py-modindex.html) 
+Yep, Python community is great. People doing magic together. See below a link to all those modules.
 
 But the question now is... Where are all those external modules saved? Yeah, we know that there are some built-in modules to which we can have direct access but... What about the other ones? Where are they stored? 
 
@@ -540,3 +540,8 @@ If we want to uninstall it, we can do it also with pip
 ```shell
 pip uninstall python-docx
 ```
+
+And after we can import them normally :)
+
+There are some modules that are already found in python and we can use them directly without the need of using pip install. Here a sample link: [Python modules.](https://docs.python.org/3/py-modindex.html) 
+
