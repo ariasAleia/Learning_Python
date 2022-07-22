@@ -442,7 +442,7 @@ As we could see, we can print sth that we want or we want directly print the mes
 
 ### Reading files with Python :D
 
-If both files are in the same folder, then we just need the name of the file... However in our case we had to specify first the folder where it was. Kinda strange but it worked...
+If both files are in the same folder, then we just need the name of the file... It works!
 
 The second parameter specifies if we want to read or modify or write the file
 r means that we only want to read from it
@@ -522,3 +522,21 @@ And we can find a huuuuuuuuuuuuge amount of modules. Just google list of modules
 Yep, Python community is great. People doing magic together. Here a sample link: [Python modules.](https://docs.python.org/3/py-modindex.html) 
 
 But the question now is... Where are all those external modules saved? Yeah, we know that there are some built-in modules to which we can have direct access but... What about the other ones? Where are they stored? 
+
+They may be found in lib or we may need to install the using pip. Sorry, what? Pip? Jap.. exactly. Pip
+
+### Pip
+
+We can use pip to install python modules. It's a package manager. 
+We can install modules from other people typing in cmd (Windows):
+
+```shell
+pip install python-docx
+```
+
+In this case we installed the module python-docx
+
+If we want to uninstall it, we can do it also with pip
+```shell
+pip uninstall python-docx
+```
