@@ -502,4 +502,23 @@ More info just check the script *appender.py* but hey! be careful!!! If you run 
 
 Jap. We can also do it. Instead of "a", we have now "w" as a second parameter.
 
-3:28
+### Modules
+
+A module is any external file (.py) that we have in python.
+We can import files into the file we are working on. For example, useful_tools was a file that we created with the name useful_tools.py
+
+```python
+import useful_tools
+
+# and now we can access to all the things we have in the file called useful_tools
+
+print(useful_tools.get_file_ext("cuento.pdf"))
+print(useful_tools.beatles[0])
+print(useful_tools.roll_dice(90))
+```
+
+And we can find a huuuuuuuuuuuuge amount of modules. Just google list of modules in python. And we can then find how we import them :)
+
+Yep, Python community is great. People doing magic together. Here a sample link: [Python modules.](https://docs.python.org/3/py-modindex.html) 
+
+But the question now is... Where are all those external modules saved? Yeah, we know that there are some built-in modules to which we can have direct access but... What about the other ones? Where are they stored? 
