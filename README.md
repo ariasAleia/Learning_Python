@@ -516,6 +516,13 @@ print(useful_tools.get_file_ext("cuento.pdf"))
 print(useful_tools.beatles[0])
 print(useful_tools.roll_dice(90))
 ```
+But if we specify directly which thing we want to import from that module, then we can access it directly:
+
+```python
+from useful_tools import roll_dice
+
+print(roll_dice(3))
+```
 
 And we can find a huuuuuuuuuuuuge amount of modules. Just google list of modules in python. And we can then find how we import them :)
 
@@ -545,3 +552,42 @@ And after we can import them normally :)
 
 There are some modules that are already found in python and we can use them directly without the need of using pip install. Here a sample link: [Python modules.](https://docs.python.org/3/py-modindex.html) 
 
+### Classes and objects
+
+A class is like a data type that we create. We can define our own data type :) 
+
+The basic structure has the name of the class and the initializer (init)
+
+```python
+class Student:
+    
+    def __init__(self, name, major, gpa, is_on_probation):
+        self.name = name
+        self.major = major
+        self.gpa = gpa
+        self.is_on_probation = is_on_probation
+```
+In the initializer we assign the attributes to the object.
+
+A class is like a template. The object is one instance of that class. It is an actual student.
+
+And we can now create an actual student. An instance of the class. An object.
+
+```python
+from class_objects import Student
+
+student1 = Student("Aleia", "Creative Programming", 5.0, False)
+print(student1.name)
+student2 = Student("Feliponcio", "Soccer analysis", 3.6, True)
+print(student2.is_on_probation)
+```
+We can create arrays of objects:
+```python
+questions = [
+    Question(question_prompts[0], "a"),
+    Question(question_prompts[1], "c"),
+    Question(question_prompts[2], "b")
+]
+```
+
+We did a cool program! Quiz. OOP seems to be like useful. Check the script. Try to model things with classes and objects
