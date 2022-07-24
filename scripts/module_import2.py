@@ -1,3 +1,3 @@
-import useful_tools
+from useful_tools import roll_dice
 
-print(useful_tools.roll_dice(3))
+print(roll_dice(3))
