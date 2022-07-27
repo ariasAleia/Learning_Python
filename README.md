@@ -700,3 +700,10 @@ print(student1.in_honor_roll())
 ```
 
 And we will leave the readme til these point! Coming soon: OOP! And hey! Enjoy the path. Enjoy woh you are walking it. And be grateful, it will definetely pay off. 
+
+
+### .gitignore
+
+Last important thing: [.gitignore](https://www.youtube.com/watch?v=ZmGW45eZOg8)
+
+Check it out! Really easy and important!
