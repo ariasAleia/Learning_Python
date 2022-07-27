@@ -676,3 +676,27 @@ questions = [
 ```
 
 We did a cool program! Quiz. OOP seems to be like useful. Check the script. Try to model things with classes and objects
+
+## Class function
+
+```python
+class Student:
+    
+    def __init__(self, name, major, gpa, is_on_probation):
+        self.name = name
+        self.major = major
+        self.gpa = gpa
+        self.is_on_probation = is_on_probation
+        
+    def in_honor_roll(self):
+        return self.gpa >= 4.6
+```
+
+and then we can call the function
+```python
+student1 = Student("Aleia", "Creative Programming", 5.0, False)
+
+print(student1.in_honor_roll())
+```
+
+And we will leave the readme til these point! Coming soon: OOP! And hey! Enjoy the path. Enjoy woh you are walking it. And be grateful, it will definetely pay off. 

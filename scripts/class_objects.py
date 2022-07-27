@@ -6,3 +6,5 @@ class Student:
         self.gpa = gpa
         self.is_on_probation = is_on_probation
         
+    def in_honor_roll(self):
+        return self.gpa >= 4.6
