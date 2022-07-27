@@ -267,6 +267,91 @@ say_hi_user("Aleia", 22)
 
 After a return statement inside of a function nothing will be executed!
 
+### Default arguments in a function
+
+Let's say that we have a function that receives some arguments and makes sth. Sth? Yep, whatever. There's an option to have default arguments in case the function doesn't receive all parameters it needs to execute the procedure. Wait, wait... what?... Don't worry. Let's see an example:
+
+```python
+def show_name(name, lastname = "Arias"):
+    print("I am " + name + " " + lastname)
+    
+    
+show_name("Aleja", "Frontanilla")
+show_name("Aleja")
+```
+
+In this case, the function *show_name* receives 2 parameters: name and lastname. However, if we don't specify a last name when calling the function, it will take "Arias" as default last name. And print sth like this:
+
+```shell
+I am Aleja Frontanilla
+I am Aleja Arias
+```
+
+Cool, isn't it? Yap. Cool. And of course. Important to know: All default arguments must be after the arguments that don't have a default value.
+
+This gets really interesting! Let's see a little bit more about variables
+
+### Variable number of arguments in a function
+
+This section is sponsored by our advisor: [Cristian Chitiva](https://github.com/cychitivav) Thanks again :D
+
+
+So... We won't explain it so deeply. Just the essence. For more info visit [this link](https://www.freecodecamp.org/news/args-and-kwargs-in-python/#:~:text=*args%20allows%20us%20to%20pass,a%20variable%20number%20of%20arguments.).
+
+The problem that we are trying to solve, as you could see in the link (Haven't you seen it??? goooo and see it now! I wait you)... Ready? Ok... Let's go on, the problem is when we have a function that will receive a different amount of arguments. And our hero in this case are *args and **kwargs
+
+## *args
+With *args we don't have to worry about the number of arguments that our function will receive. Ok... How? You and your questions... Let's see an example!
+
+```python
+def sum(*args):
+    ans = 0
+    for num in args:
+        ans += num
+    return ans
+
+print(sum(2, 3))
+print(sum(2, 4, 5, 7))
+```
+
+Same function, different amount of arguments, and it... works:
+
+```shell
+5
+18
+```
+
+Isn't it beautiful? Oh yeah. It is! Btw, with *args, the values that we received are saved as a tuple.
+
+Btw2: It is not mandatory that we call the parameter *args, we can have *numbers and it would work. It's just a convention :)
+
+## **kwargs
+
+And because good things come sometimes twice, here is... chan chan chaaaaaaaaaaan **kwargs! In this case, the arguments are saven ina dictionary and the benefits are the same: different number of arguments in a function is allowed!
+
+```python 
+def total_fruits(**kwargs):
+    ans = 0
+    for fruit_value in kwargs.values():
+        ans += fruit_value
+    return ans
+
+print(total_fruits(banana=5, mango=7, apple=8, oranges=10))
+print(total_fruits(banana=5, mango=7))
+```
+Output:
+```shell
+30
+12
+```
+Take care, when passing the elements don't do it as when you create a normal dictionary, pass the elements directly with commas and with = as in the example.
+
+The following wouldn't work for example:
+```python
+print(total_fruits({"banana":5, "mango":7, "apple":8}))
+```
+
+And that was it! Thanks again to our advisor!
 ### IF
  
 Well... it is way easier with an example
