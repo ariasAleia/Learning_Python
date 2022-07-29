@@ -4,7 +4,7 @@ I will begin soon a new phase and it is really important to get ready. In this r
 
 
 
-<p style="text-align:right;"><b> "A journey of a thousand miles begins with a single step </b>"</p>
+<p style="text-align:right"><b> "A journey of a thousand miles begins with a single step </b>"</p>
 
 
 ## Taking the first steps 
