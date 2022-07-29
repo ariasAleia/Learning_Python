@@ -43,9 +43,20 @@ First function: Makes everything uppercase. Second function: tells us if everyth
 
 We can compare strings directly with ==
 
+### Printing
+
+Loooong sentences can be separated this way:
+
 ```python
 print("If we want to print sth but it's extremely large we can "
       "simply split it like this")
+```
+
+Adding format to our function print is also possible:
+
+```python
+name = "Aleia"
+print(f"Person learning to code better:  {name}")
 ```
 
 ### Parameters and arguments
