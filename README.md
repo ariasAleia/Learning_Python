@@ -718,3 +718,7 @@ And we will leave the readme til these point! Coming soon: OOP! And hey! Enjoy t
 Last important thing: [.gitignore](https://www.youtube.com/watch?v=ZmGW45eZOg8)
 
 Check it out! Really easy and important!
+
+### Next steps
+
+Because good things deserve to be spread. Follow the next steps [here](https://github.com/ariasAleia/OOP_Python). 
