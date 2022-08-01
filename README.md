@@ -215,7 +215,7 @@ Basically, tuples are used when we want to store immutable data. The syntax diff
 
 And that's it!
 
-Ok! Wait! Important **We cannot modify the values in a tuple. We can only access to it**. And how do we access to it? Wellm it's the same thing as with a list
+Ok! Wait! Important **We cannot modify the values in a tuple. We can only access to it**. And how do we access to it? Well, it's the same thing as with a list
 
 ```python
 coordinates = (4, 5)
@@ -291,7 +291,7 @@ show_name("Aleja", "Frontanilla")
 show_name("Aleja")
 ```
 
-In this case, the function *show_name* receives 2 parameters: name and lastname. However, if we don't specify a last name when calling the function, it will take "Arias" as default last name. And print sth like this:
+In this case, the function *show_name* receives 2 parameters: *name* and *lastname*. However, if we don't specify a last name when calling the function, it will take "Arias" as default last name. And print sth like this:
 
 ```shell
 I am Aleja Frontanilla
@@ -338,7 +338,7 @@ Btw2: It is not mandatory that we call the parameter *args, we can have *numbers
 
 ## **kwargs
 
-And because good things come sometimes twice, here is... chan chan chaaaaaaaaaaan **kwargs! In this case, the arguments are saven ina dictionary and the benefits are the same: different number of arguments in a function is allowed!
+And because good things come sometimes twice, here is... chan chan chaaaaaaaaaaan **kwargs! In this case, the arguments are saved in a dictionary and the benefits are the same: different number of arguments in a function is allowed!
 
 ```python 
 def total_fruits(**kwargs):
@@ -381,7 +381,7 @@ else:
 ### Dictionaries
 
 Store information with key values. Sorry... what?
-Well, let's see. How does a dictionary work? Well, we have a word and we have a definiction, don't we? Well, that's exactly how a dictionary works. With this data structure, the key would be like the word and the value would be like the definition.
+Well, let's see. How does a dictionary work? Well, we have a word and we have a definition, don't we? Well, that's exactly how a dictionary works. With this data structure, the key would be like the word and the value would be like the definition.
 
 The difference here is that we do it inside curly brackets: {}
 
@@ -534,7 +534,7 @@ except ValueError as err:
     print(err)
 ```
 
-As we could see, we can print sth that we want or we want directly print the message that comes with the expection that we caught
+As we could see, we can print sth that we want or we want directly print the message that comes with the exception that we caught
 
 ### Reading files with Python :D
 
@@ -710,7 +710,7 @@ student1 = Student("Aleia", "Creative Programming", 5.0, False)
 print(student1.in_honor_roll())
 ```
 
-And we will leave the readme til these point! Coming soon: OOP! And hey! Enjoy the path. Enjoy woh you are walking it. And be grateful, it will definetely pay off. 
+And we will leave the readme til these point! Coming soon: OOP! And hey! Enjoy the path. Enjoy woh you are walking it. And be grateful, it will definitely pay off. 
 
 
 ### .gitignore
